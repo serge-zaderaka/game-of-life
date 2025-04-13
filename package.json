@@ -1,0 +1,16 @@
+{
+  "name": "game-of-life",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun index.html",
+    "build": "bun build index.html --minify --outdir=dist"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.8"
+  },
+  "engines": {
+    "bun": "~1.2.8"
+  }
+}
